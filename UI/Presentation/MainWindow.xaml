@@ -17,6 +17,6 @@
             <ColumnDefinition Width="2"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-
+        <Border Background="#2980B9" Grid.RowSpan="2"></Border>
     </Grid>
 </Window>
