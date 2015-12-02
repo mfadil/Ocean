@@ -5,18 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Presentation"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="720" Width="1250">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="35"/>
+            <RowDefinition Height="65"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="35"/>
-            <ColumnDefinition Width="123"/>
-            <ColumnDefinition Width="2"/>
+            <ColumnDefinition Width="65"/>
+            <ColumnDefinition Width="270"/>
+            <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Border Background="#2980B9" Grid.RowSpan="2"></Border>
+        <Border Background="#3498db" Grid.RowSpan="2"></Border>
+        <Border Background="#ebebeb" Grid.Column="3"></Border>
+        <Border Background="#ebebeb" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2"></Border>
+        <Rectangle Grid.Column="2" Grid.RowSpan="2" Width="5" Fill="#ebebeb" Cursor="SizeWE"/><!--d8d8d8-->
+        <Border Background="#f2f2f2" Grid.Column="3" Grid.Row="1"></Border>
+        <Border Background="#FFE0E0E0" Grid.Column="1" Grid.ColumnSpan="2"></Border> 
     </Grid>
 </Window>
