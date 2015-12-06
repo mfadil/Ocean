@@ -17,7 +17,15 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Border Background="#3498db" Grid.RowSpan="2"></Border>
+        <Border Background="#3498db" Grid.RowSpan="2">
+            <StackPanel Orientation="Vertical">
+                <Rectangle Fill="White" Height="50" Width="50" Margin="7.5"/>
+                <Rectangle Fill="White" Height="50" Width="50" Margin="7.5,0, 7.5, 7.5"/>
+                <Rectangle Fill="White" Height="50" Width="50" Margin="7.5,0, 7.5, 7.5"/>
+                <Rectangle Fill="White" Height="50" Width="50" Margin="7.5,0, 7.5, 7.5"/>
+                <Rectangle Fill="White" Height="50" Width="50" Margin="7.5,0, 7.5, 7.5"/>
+            </StackPanel>
+        </Border>
         <Border Background="#ebebeb" Grid.Column="3"></Border>
         <Border Background="#ebebeb" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2"></Border>
         <Rectangle Grid.Column="2" Grid.RowSpan="2" Width="5" Fill="#ebebeb" Cursor="SizeWE"/><!--d8d8d8-->
