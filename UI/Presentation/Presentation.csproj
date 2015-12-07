@@ -97,12 +97,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ServiceLayer\Data\Data.csproj">
+      <Project>{07e38a4f-2ecf-47e9-a04f-fe5c9ef568a1}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ServiceLayer\Services\Services.csproj">
+      <Project>{0b008f29-570d-47d1-b148-9c9e4b6570ba}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Core\Core.csproj">
       <Project>{1ba102a6-eed1-4b58-8664-aa2de81d3f19}</Project>
       <Name>Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Resource Include="Resources\Palet.jpg" />
   </ItemGroup>
