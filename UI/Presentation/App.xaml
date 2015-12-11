@@ -5,7 +5,7 @@
              xmlns:local="clr-namespace:Presentation"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <p:IconsResource x:Name="dfsdf"/>
+        <!--<p:IconsResource x:Name="dfsdf"/>-->
         <Style TargetType="{x:Type Button}">
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="Foreground" Value="Black"/>
